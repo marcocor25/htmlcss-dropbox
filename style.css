@@ -28,15 +28,90 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-/* TEST */
+/* HEADER */
 
-h1 {
-    font-size: 60px;
-    font-weight: bolder;
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* BARRA DEI MENÙ */
+
+.menu-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #F1EEE8;
+    background: white;
+    font-weight: 500;
+    font-size: 13px;
+    position: sticky;
+    top: 0;
 }
+
+.menu-col-1 {
+    max-width: 100%;
+    float: left;
+    background: salmon;
+}
+
+.menu-col-2 {
+    max-width: 100%;
+    float: right;
+}
+
+.nav-logo {
+    width: 120px;
+    padding: 15px;
+    float: left;
+}
+
+.nav-bar {
+    float: left;
+    padding: 17px 0;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar a {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar a:hover {
+    background: #F1EEE8;
+    transition: background-color 300ms;
+}
+
+.nav-button {
+    float: left;
+    padding: 17px 0;
+}
+
+.nav-button a {
+    margin: 0 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    background: #0160FF;
+    color: white;
+}
+
+.nav-button a:hover {
+    background: #3A7AFF;
+    transition: background-color 300ms;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* JUMBO HEADER */
 
 
 
 
 
 /* to be continud... */
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
