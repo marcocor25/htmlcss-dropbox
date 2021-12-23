@@ -48,8 +48,7 @@ img {
 .menu-col-1 {
     max-width: 100%;
     float: left;
-    background: salmon;
-}
+    }
 
 .menu-col-2 {
     max-width: 100%;
@@ -104,11 +103,77 @@ img {
 
 /* JUMBO HEADER */
 
+.jumbo-container {
+    max-width: 100%;
+    height: 500px;
+    background: #B3D0E7;
+}
+
+.jumbo-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.jumbo-title {
+    padding: 40px 0;
+    font-size: 60px;
+}
+
+.jumbo-col-1 {
+    width: 40%;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+}
+
+.description {
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.trial-button {
+    text-decoration: none;
+    color: white;
+    background: #0160FF;
+    padding: 10px 20px;;
+}
+
+.trial-button:hover {
+    background: #3A7AFF;
+    transition: background-color 300ms;
+}
+
+.cancel {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.download {
+    font-size: 40px;
+    color: black;
+}
+
+.download:hover {
+    color: white;
+    transition: color 300ms;
+}
+
+.jumbo-col-2 {
+    width: 60%;
+    float: left;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN */
+
+/* ---------------------------------------------------------------------------------------------------- */
 
 
 
 
-/* to be continud... */
+/* to be continued... */
 
 
 
