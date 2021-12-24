@@ -1,4 +1,8 @@
+/* ---------------------------------------------------------------------------------------------------- */
+
 /* RESET CSS */
+
+/* ---------------------------------------------------------------------------------------------------- */
 
 * {
     margin: 0;
@@ -9,16 +13,29 @@
 html {
     font-family: 'Karla', sans-serif;
     scroll-behavior: smooth;
+    font-weight: 500;
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* PRESET CONTENITORI */
 
+/* ---------------------------------------------------------------------------------------------------- */
+
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 img {
@@ -39,10 +56,10 @@ img {
     margin: 0 auto;
     border-bottom: 2px solid #F1EEE8;
     background: white;
-    font-weight: 500;
     font-size: 13px;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .menu-col-1 {
@@ -99,13 +116,12 @@ img {
     transition: background-color 300ms;
 }
 
-/* ---------------------------------------------------------------------------------------------------- */
-
 /* JUMBO HEADER */
 
 .jumbo-container {
     max-width: 100%;
     height: 500px;
+    margin-bottom: 100px;
     background: #B3D0E7;
 }
 
@@ -122,7 +138,6 @@ img {
 .jumbo-col-1 {
     width: 40%;
     font-size: 14px;
-    font-weight: 500;
     float: left;
 }
 
@@ -133,9 +148,10 @@ img {
 
 .trial-button {
     text-decoration: none;
+    font-weight: bold;
     color: white;
     background: #0160FF;
-    padding: 10px 20px;;
+    padding: 10px 20px;
 }
 
 .trial-button:hover {
@@ -146,7 +162,7 @@ img {
 .cancel {
     margin-top: 15px;
     margin-bottom: 30px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .download {
@@ -166,9 +182,103 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-/* MAIN */
+/* MAIN - PRIMA SEZIONE */
 
 /* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN ROW 1 */
+
+.main-row-1  h1 {
+    padding: 50px 0;
+}
+
+.radio-buttons {
+    padding-bottom: 30px;
+}
+
+label {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+/* MAIN COLS */
+
+.main-col {
+    width: 300px;
+    height: 1000px;
+    float: left;
+    border: 2px solid #EAEAEC;
+}
+
+.center, .right {
+    margin-left: 50px;
+}
+
+.main-col h1 {
+    padding: 10px;
+    border-bottom: 2px solid #EAEAEC;
+    text-align: center;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.col-content {
+    padding: 20px
+}
+
+.col-content p {
+    font-size: 14px;
+}
+
+.main-col h3 {
+    font-weight: bolder;
+}
+
+.price {
+    font-weight: bolder;
+    padding: 10px 0
+}
+
+.monthly {
+    padding-bottom: 50px;
+    font-size: 13px;
+    color: #6E7D8A;
+}
+
+.users, .drive, .functions {
+    padding-bottom: 20px;
+}
+
+.month-trial {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#large {
+    padding: 10px 45px;
+}
+
+.buy-now {
+    padding: 40px 0;
+}
+
+.plan {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.col-content li {
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN - SECONDA SEZIONE */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
 
 
 
