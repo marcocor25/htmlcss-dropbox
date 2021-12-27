@@ -33,6 +33,14 @@ html {
     margin: 0 auto;
 }
 
+.big-container {
+    max-width: 100%;
+}
+
+.margin-left {
+    margin-left: 5%;
+}
+
 .shadow {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -206,14 +214,10 @@ label {
 /* MAIN COLS */
 
 .main-col {
-    width: 300px;
+    max-width: 30%;
     height: 1000px;
     float: left;
     border: 2px solid #EAEAEC;
-}
-
-.center, .right {
-    margin-left: 50px;
 }
 
 .main-col h1 {
@@ -281,10 +285,11 @@ label {
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-/* COPNTAINER PICCOLO */
+/* MAIN ROW 2 */
 
 .main-row-2 {
     max-width: 100%;
+    margin-bottom: 120px;
     border: 2px solid #EAEAEC;
 }
 
@@ -332,12 +337,6 @@ label {
 
 /* CONTAINER GRANDE */
 
-.big-container {
-    max-width: 100%;
-    padding-top: 120px;
-    padding-bottom: 50px;
-}
-
 .partner-col {
     width: 50%;
     float: left;
@@ -370,6 +369,39 @@ label {
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* MAIN - TERZA SEZIONE */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN ROW 3 + CARDS */
+
+.main-row-3 h1 {
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.card {
+    width: 30%;
+    padding: 50px 0;
+    float: left;
+}
+
+.card-img {
+    width: 250px;
+}
+
+.card h1 {
+    padding: 10px 0;
+}
+
+.card p {
+    max-width: 92%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN - QUARTA SEZIONE */
 
 /* ---------------------------------------------------------------------------------------------------- */
 
