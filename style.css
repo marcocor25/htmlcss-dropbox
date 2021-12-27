@@ -13,7 +13,6 @@
 html {
     font-family: 'Karla', sans-serif;
     scroll-behavior: smooth;
-    font-weight: 500;
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -28,8 +27,9 @@ html {
     clear: both;
 }
 
-.main-container {
+.section-container {
     max-width: 1000px;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
@@ -57,6 +57,7 @@ img {
     border-bottom: 2px solid #F1EEE8;
     background: white;
     font-size: 13px;
+    font-weight: 500;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -65,7 +66,7 @@ img {
 .menu-col-1 {
     max-width: 100%;
     float: left;
-    }
+}
 
 .menu-col-2 {
     max-width: 100%;
@@ -162,7 +163,7 @@ img {
 .cancel {
     margin-top: 15px;
     margin-bottom: 30px;
-    font-weight: bold;
+    font-size: 12px;
 }
 
 .download {
@@ -190,6 +191,7 @@ img {
 
 .main-row-1  h1 {
     padding: 50px 0;
+    font-size: 36px;
 }
 
 .radio-buttons {
@@ -227,7 +229,7 @@ label {
 }
 
 .col-content p {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .main-col h3 {
@@ -270,12 +272,104 @@ label {
 
 .col-content li {
     padding: 15px 0;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* MAIN - SECONDA SEZIONE */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* COPNTAINER PICCOLO */
+
+.main-row-2 {
+    max-width: 100%;
+    border: 2px solid #EAEAEC;
+}
+
+.main-row-2-title {
+    padding: 10px;
+    border-bottom: 2px solid #EAEAEC;
+    text-align: center;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.row-col-1 {
+    width: 70%;
+    padding: 20px;
+    float: left;
+}
+
+.row-col-1 h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info-price {
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.solutions {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.row-col-2 {
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+
+.main-row-2-button {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* CONTAINER GRANDE */
+
+.big-container {
+    max-width: 100%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.partner-col {
+    width: 50%;
+    float: left;
+}
+
+.partner-description {
+    padding: 40px;
+}
+
+.partner-description p {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.partner-description a {
+    padding: 8px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.partner-description a:hover {
+    background: #F1EEE8;
+    transition: background-color 300ms;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* MAIN - TERZA SEZIONE */
 
 /* ---------------------------------------------------------------------------------------------------- */
 
